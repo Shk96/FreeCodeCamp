@@ -1,2 +1,2 @@
 # FreeCodeCamp
-Free Code Camp - Coding Practice
+Free Code Camp - Practice Projects
