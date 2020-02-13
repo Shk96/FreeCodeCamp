@@ -1,0 +1,27 @@
+body{
+    background-color:white;
+    background-image: url("https://images.pexels.com/photos/3657154/pexels-photo-3657154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+}
+
+h1  {
+    text-align: Center;
+    color:white;
+    
+}
+
+#description {
+    text-align: Center;
+    color:palegreen
+    
+}
+
+#survey-form{
+    margin:10%;
+    
+    text-align: left;
+}
+
+p{
+    color:white;
+    font-weight: normal;
+}
