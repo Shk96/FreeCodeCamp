@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+h1 {
+    font-family: cursive;
+    color: darkblue;
+}
+
+#img-caption {
+    font-weight: bold;
+    color: rgb(17, 0, 255);
+    margin: 1%;
+}
+
+
+#tribute-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:  bold;
+}
+
+#image{
+    margin: auto;
+    align-items:center;
+    display: block;
+    max-width: 100% ;
+}
+
+
+
+a{
+    color:white;
+    
+}
+
+.Job {
+    color: white;
+}
