@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="C:\Users\teknu\Desktop\FreeCodeCamp\Responsive web design Certfication\Projects\Technical Documentation - Python\index.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+<!–– Setting up the Navigation bar and giving the header a name and a navigation link -->
+
+<nav id="navbar">
+    <header><h3>Python Documentation</h3></header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+
+      <!–– Setting up the Navigation bar and giving the naviagtion elements link -->
+
+    <li><a class="nav-link" href="#What`s_new_in_Python_3.3_?">What`s new in Python 3.3 ?</a></li>
+
+    <li><a class="nav-link" href="#Getting_started">Getting started</a></li>
+
+    <li><a class="nav-link" href="#Installing_Python_Modules">Installing Python Modules</a></li>
+
+    <li><a class="nav-link" href="#Python_Setup_and_Usage">Python Setup and Usage</a></li>
+
+    <li><a class="nav-link" href="#Language_Reference">Language Reference</a></li>
+
+    
+</nav>
+
+
+      <!–– Setting up the main content section of the documention by using a main element and making section in it -->
+
+      <main id="main-doc">
+
+    <section class="main-section" 
+    id="Introduction">
+    <header><h3>Introduction</h3></header>
+    <article>
+        <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991,
+             Python's design philosophy emphasizes code readability with its notable use of significant whitespace</p>
+
+             <P>
+                <ul><strong>What can Python do?</strong></ul> 
+
+                <li>Python can be used on a server to create web applications.</li>
+               <li> Python can be used alongside software to create workflows.</li>
+               <li>Python can connect to database systems. It can also read and modify files.</li>
+                <li>Python can be used to handle big data and perform complex mathematics.</li>
+                <li>Python can be used for rapid prototyping, or for production-ready software development.</li> <br>
+
+               
+            
+             <ul><strong>Python Syntax compared to other programming languages</strong></ul> <br>
+
+                <li>Python was designed for readability, and has some similarities to the English language with influence from mathematics.</li>
+                <li>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</li>
+                <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+            </p>
+
+             </p>
+        </article>
+        </section>
+
+    
+    <section class="main-section"
+    id="What`s_new_in_Python_3.3_?">
+    <header><h3>What`s new in Python 3.3 ?</h3></header>
+    <article>
+        <p>This article explains the new features in Python 3.3, compared to 3.2. Python 3.3 was released on September 29, 2012.</p>
+        <ul>
+            
+            <h5><strong>New syntax features:</strong></h5>
+
+            <li>New yield from expression for generator delegation.</li>
+            <li> The u'unicode' syntax is accepted again for str objects.</li>
+
+            <h5><strong>New library modules:</strong></h5>
+
+            <li>faulthandler (helps debugging low-level crashes)</li>
+            <li>ipaddress (high-level objects representing IP addresses and masks)</li>
+            <li> lzma (compress data using the XZ / LZMA algorithm)</li>
+            <li>unittest.mock (replace parts of your system under test with mock objects</li>
+            <li>Python virtual environments, as in the popular virtualenv package</li>
+            
+        </ul>
+    </article>
+    </section>
+
+
+
+    <section class="main-section"
+    id="Getting_started">
+    <header><h3>Getting started</h3></header>
+    <article>
+        <ul>
+        <p>Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it
+             an ideal language for scripting and rapid application development in many areas on most platforms.</p>
+             
+                 <li> <strong>Basic Math</strong> <br> <code> x=2 <br> y=3 <br> output : x+y=5</code></li> <br>
+                 <li><strong>Print Statement</strong> <br><code> print("hello world") <br> Output : Hello world</code></li> <br>
+                 <li><strong>Boolean</strong> <br> <code> a=2 <br> while a is True: <br> Print (a) <br> Output: 2</code></li> <br>
+                 <li><strong>Multiplication </strong><br> <code>a=2 <br> b=3 <br> print(a*b) <br> Output:6</code> </li> <br>
+                 <li><strong>Division </strong> <br> <code>a=6 <br> b=3 <br> print(a/b) <br> Output:2 </code></li> <br>
+                
+            </ul>
+    </article>
+</section>
+
+
+    <section class="main-section"
+    id="Installing_Python_Modules">
+    <header><h3>Installing Python Modules</h3></header>
+    <article>
+        <ul>
+            <p>This document describes the Python Distribution Utilities (“Distutils”) from the end-user’s point-of-view, describing how to extend the 
+                capabilities of a standard Python installation by building and installing third-party Python modules and extensions.</p>
+
+                <li>python setup.py install</li>
+                <li>gunzip -c foo-1.0.tar.gz | tar xf </li>
+                <li>python setup.py build --build-base=/path/to/pybuild/foo-1.0</li>
+                <li>python setup.py install --user</li>
+        </ul>
+    </article>
+</section>
+
+
+    <section class="main-section"
+    id="Python_Setup_and_Usage">
+    <header><h3>Python Setup and Usage</h3></header>
+    <article>
+        <ul>
+            <p>This part of the documentation is devoted to general information on the setup of the Python environment on different platform, 
+                the invocation of the interpreter and things that make working with Python easier.</p>
+    
+                <li>Downaload python</li>
+                <li>Install in the main server</li>
+                <li>Do basic configuration</li>
+                <li>Start the server</li>
+                <li>Connect to Api</li>
+    
+        </ul>
+
+        
+    </article>
+</section>
+
+
+
+    <section class="main-section"
+    id="Language_Reference">
+    <header><h3>Language Reference</h3></header>
+    <article>
+        <p>This is a demo techinical documentation created for just for learing purporse</p> 
+        <p>You can read the Official <a href="https://docs.python.org/3.3/index.html">Python documentation here</a></p>
+    </article>
+</section>
+
+    
+
+
+
+      </main>
+
+    
